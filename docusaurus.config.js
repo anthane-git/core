@@ -30,23 +30,27 @@ const config = {
 		[
 			'classic',
 			/** @type {import('@docusaurus/preset-classic').Options} */
-			({
+			{
 				docs: {
+					path: 'elements',
+					routeBasePath: 'elements',
 					sidebarPath: require.resolve('./sidebars.js'),
 				},
 				blog: {
 					showReadingTime: true,
+					path: 'base',
+					routeBasePath: 'base',
 				},
 				theme: {
 					customCss: require.resolve('./src/styles/custom.scss'),
 				},
-			}),
+			},
 		],
 	],
 
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-		({
+		{
 			navbar: {
 				title: 'Core',
 				logo: {
@@ -55,7 +59,7 @@ const config = {
 				},
 				items: [
 					{
-						to: '/blog',
+						to: '/base',
 						label: 'Base',
 						position: 'left',
 					},
@@ -84,7 +88,7 @@ const config = {
 				searchParameters: {},
 				searchPagePath: 'search',
 			},
-		}),
+		},
 };
 
 module.exports = config;
