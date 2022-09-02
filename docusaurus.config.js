@@ -10,11 +10,14 @@ const config = {
 	title: 'Anthane Core',
 	tagline:
 		'Our design system for all of our products, services and experiences.',
-	url: 'https://anthane-git.github.io',
-	baseUrl: '/core/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicon.ico',
+	url: 'https://anthane-git.github.io',
+	baseUrl: '/core/',
+	organizationName: 'anthane-git',
+	projectName: 'core',
+	deploymentBranch: 'gh-pages',
 	trailingSlash: false,
 
 	plugins: ['docusaurus-plugin-sass'],
