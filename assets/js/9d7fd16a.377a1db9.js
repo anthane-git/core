@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_anthane_core=self.webpackChunk_anthane_core||[]).push([[1231],{9834:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/base/tags/facebook","allTagsPath":"/base/tags","count":1}')}}]);
