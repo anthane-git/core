@@ -69,11 +69,6 @@ const config = {
 						position: 'left',
 						label: 'Elements',
 					},
-					{
-						to: '/tokens',
-						label: 'Tokens',
-						position: 'left',
-					},
 				],
 			},
 			prism: {
