@@ -10,11 +10,12 @@ const config = {
 	title: 'Anthane Core',
 	tagline:
 		'Our design system for all of our products, services and experiences.',
-	url: 'https://your-docusaurus-test-site.com',
-	baseUrl: '/',
+	url: 'https://anthane-git.github.io',
+	baseUrl: '/core/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicon.ico',
+	trailingSlash: false,
 
 	plugins: ['docusaurus-plugin-sass'],
 
@@ -32,14 +33,14 @@ const config = {
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			{
 				docs: {
-					path: 'elements',
-					routeBasePath: 'elements',
+					path: './elements',
+					routeBasePath: '/elements',
 					sidebarPath: require.resolve('./sidebars.js'),
 				},
 				blog: {
 					showReadingTime: true,
-					path: 'base',
-					routeBasePath: 'base',
+					path: './base',
+					routeBasePath: '/base',
 				},
 				theme: {
 					customCss: require.resolve('./src/styles/custom.scss'),
