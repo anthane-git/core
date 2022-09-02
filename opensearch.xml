@@ -4,8 +4,8 @@
   <ShortName>Anthane Core</ShortName>
   <Description>Search Anthane Core</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://anthane-git.github.io/core/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://anthane-git.github.io/core/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://anthane-git.github.io/core/opensearch.xml" />
-  <moz:SearchForm>https://anthane-git.github.io/core/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://anthane-git.github.io/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://anthane-git.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://anthane-git.github.io/opensearch.xml" />
+  <moz:SearchForm>https://anthane-git.github.io/</moz:SearchForm>
 </OpenSearchDescription>
