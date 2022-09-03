@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_anthane_core=self.webpackChunk_anthane_core||[]).push([[8894],{8894:(e,a,n)=>{n.r(a)}}]);

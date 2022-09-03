@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_anthane_core=self.webpackChunk_anthane_core||[]).push([[1883],{7085:e=>{e.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);
