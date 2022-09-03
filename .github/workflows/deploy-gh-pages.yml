@@ -25,4 +25,4 @@ jobs:
         run: npm ci
 
       - name: Deploy 🚀
-        run: echo "${{ env.SSH_USER }} npm run deploy"
+        run: ${{ env.SSH_USER }} npm run deploy
