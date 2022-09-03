@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
 
+env:
+  GIT_USER: BlazeIsClone
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -22,4 +25,4 @@ jobs:
         run: npm ci
 
       - name: Deploy 🚀
-        run: npm run deploy
+        run: echo "${{ env.SSH_USER }} npm run deploy"
