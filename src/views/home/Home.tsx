@@ -1,3 +1,4 @@
+import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { HeroBanner } from '@site/src/components';
 import Layout from '@theme/Layout';
@@ -8,6 +9,7 @@ export const Home = (): JSX.Element => {
 	return (
 		<Layout title={siteConfig.title} description="Anthane Core - Design System">
 			<HeroBanner />
+			<Link to={'/getting-started'}>Getting Stareted</Link>
 		</Layout>
 	);
 };

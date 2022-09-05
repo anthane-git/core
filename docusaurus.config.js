@@ -1,12 +1,10 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-
-const config = {
+module.exports = {
 	title: 'Anthane Core',
 	tagline:
 		'Our design system for all of our products, services and experiences.',
@@ -20,8 +18,6 @@ const config = {
 	deploymentBranch: 'gh-pages',
 	trailingSlash: false,
 
-	plugins: ['docusaurus-plugin-sass'],
-
 	// Even if you don't use internalization, you can use this field to set useful
 	// metadata like html lang. For example, if your site is Chinese, you may want
 	// to replace "en" with "zh-Hans".
@@ -29,6 +25,19 @@ const config = {
 		defaultLocale: 'en',
 		locales: ['en'],
 	},
+
+	plugins: [
+		'docusaurus-plugin-sass',
+		[
+			'@docusaurus/plugin-content-blog',
+			/** @type {import('@docusaurus/plugin-content-blog').Options} */
+			{
+				id: 'getting-started',
+				routeBasePath: 'getting-started',
+				path: './docs/getting-started',
+			},
+		],
+	],
 
 	presets: [
 		[
@@ -94,5 +103,3 @@ const config = {
 			},
 		},
 };
-
-module.exports = config;
