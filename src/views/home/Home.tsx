@@ -9,7 +9,10 @@ export const Home = (): JSX.Element => {
 	return (
 		<Layout title={siteConfig.title} description="Anthane Core - Design System">
 			<HeroBanner />
-			<Link to={'/getting-started'}>Getting Stareted</Link>
+			<div>
+				Explore Core Usage
+				<Link to={'/getting-started'}>Getting Stareted</Link>
+			</div>
 		</Layout>
 	);
 };
