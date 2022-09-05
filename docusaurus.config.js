@@ -36,13 +36,13 @@ const config = {
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			{
 				docs: {
-					path: './elements',
+					path: './docs/elements',
 					routeBasePath: '/elements',
 					sidebarPath: require.resolve('./sidebars.js'),
 				},
 				blog: {
 					showReadingTime: true,
-					path: './base',
+					path: './docs/base',
 					routeBasePath: '/base',
 				},
 				theme: {
@@ -72,6 +72,11 @@ const config = {
 						docId: 'intro',
 						position: 'left',
 						label: 'Elements',
+					},
+					{
+						position: 'left',
+						label: 'Tokens',
+						to: 'tokens',
 					},
 				],
 			},
