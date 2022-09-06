@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://anthane-git.github.io/core/getting-started</id>
+    <title>Anthane Core Blog</title>
+    <updated>2022-09-06T03:12:48.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://anthane-git.github.io/core/getting-started"/>
+    <subtitle>Anthane Core Blog</subtitle>
+    <icon>https://anthane-git.github.io/core/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[MDX Blog Post]]></title>
+        <id>mdx-blog-post</id>
+        <link href="https://anthane-git.github.io/core/getting-started/mdx-blog-post"/>
+        <updated>2022-09-06T03:12:48.000Z</updated>
+        <summary type="html"><![CDATA[Everything you need to start designing with the Anthane Design System.]]></summary>
+        <content type="html"><![CDATA[<p>Everything you need to start designing with the Anthane Design System.</p>]]></content>
+    </entry>
+</feed>

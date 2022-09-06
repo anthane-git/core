@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_anthane_core=self.webpackChunk_anthane_core||[]).push([[980],{950:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"MDX Blog Post","permalink":"/core/getting-started/mdx-blog-post"}]}')}}]);

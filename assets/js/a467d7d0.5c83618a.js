@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_anthane_core=self.webpackChunk_anthane_core||[]).push([[5684],{668:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/core/base/tags/docusaurus","allTagsPath":"/core/base/tags","count":3}')}}]);

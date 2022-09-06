@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_anthane_core=self.webpackChunk_anthane_core||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/core/base/welcome"},{"title":"MDX Blog Post","permalink":"/core/base/mdx-blog-post"},{"title":"First Blog Post","permalink":"/core/base/first-blog-post"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_anthane_core=self.webpackChunk_anthane_core||[]).push([[887],{4469:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);
