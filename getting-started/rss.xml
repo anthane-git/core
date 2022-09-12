@@ -4,7 +4,7 @@
         <title>Anthane Core Blog</title>
         <link>https://anthane-git.github.io/core/getting-started</link>
         <description>Anthane Core Blog</description>
-        <lastBuildDate>Tue, 06 Sep 2022 03:12:48 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Sep 2022 04:50:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[MDX Blog Post]]></title>
             <link>https://anthane-git.github.io/core/getting-started/mdx-blog-post</link>
             <guid>mdx-blog-post</guid>
-            <pubDate>Tue, 06 Sep 2022 03:12:48 GMT</pubDate>
+            <pubDate>Mon, 12 Sep 2022 04:50:28 GMT</pubDate>
             <description><![CDATA[Everything you need to start designing with the Anthane Design System.]]></description>
             <content:encoded><![CDATA[<p>Everything you need to start designing with the Anthane Design System.</p>]]></content:encoded>
         </item>

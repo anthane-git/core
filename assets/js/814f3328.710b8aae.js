@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_anthane_core=self.webpackChunk_anthane_core||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Core Principles","permalink":"/core/base/core-principles"},{"title":"Accessibility","permalink":"/core/base/accessibility"}]}')}}]);
