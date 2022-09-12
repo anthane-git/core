@@ -36,6 +36,16 @@ module.exports = {
 				path: './docs/getting-started',
 			},
 		],
+		[
+			'@docusaurus/plugin-content-docs',
+			/** @type {import('@docusaurus/plugin-content-docs').Options} */
+			{
+				id: 'base',
+				routeBasePath: 'base',
+				path: 'docs/base',
+				sidebarPath: require.resolve('./sidebars.js'),
+			},
+		],
 	],
 
 	presets: [
@@ -44,14 +54,9 @@ module.exports = {
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			{
 				docs: {
-					path: './docs/elements',
-					routeBasePath: '/elements',
+					path: 'docs/elements',
+					routeBasePath: 'elements',
 					sidebarPath: require.resolve('./sidebars.js'),
-				},
-				blog: {
-					showReadingTime: true,
-					path: './docs/base',
-					routeBasePath: '/base',
 				},
 				theme: {
 					customCss: require.resolve('./src/styles/custom.scss'),
@@ -65,13 +70,14 @@ module.exports = {
 		{
 			navbar: {
 				title: 'Core',
+				hideOnScroll: true,
 				logo: {
-					alt: 'My Site Logo',
+					alt: 'Anthane',
 					src: 'img/logo.png',
 				},
 				items: [
 					{
-						to: '/base',
+						to: 'base/intro',
 						label: 'Base',
 						position: 'left',
 					},
