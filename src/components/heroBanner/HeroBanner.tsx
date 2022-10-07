@@ -2,7 +2,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import React from 'react';
 import clsx from 'clsx';
 
-import styles from './HeroBanner.module.css';
+import styles from './HeroBanner.module.scss';
 
 export const HeroBanner = (): JSX.Element => {
 	const { siteConfig } = useDocusaurusContext();

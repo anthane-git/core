@@ -1,4 +1,6 @@
 export * from './ColorsDark';
 export * from './ColorsLight';
 export * from './Fonts';
-export * from './Spacing';
+export * from './SpacingSmall';
+export * from './SpacingMedium';
+export * from './SpacingLarge';

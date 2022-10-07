@@ -1,1 +1,1 @@
-export { Tokens as default } from '@site/src/views';
+export { Tokens as default } from '../views';

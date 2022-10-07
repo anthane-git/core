@@ -1,0 +1,26 @@
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 80px;
+
+	.link {
+		background-color: var(--ifm-card-background-color);
+		border-radius: var(--ifm-card-border-radius);
+		box-shadow: var(--ifm-global-shadow-lw);
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		border: 1px solid var(--ifm-color-emphasis-200);
+		padding: 2rem;
+		margin: 0 var(--ifm-spacing-horizontal);
+
+		&:hover {
+			box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+			cursor: pointer;
+		}
+
+		h2 {
+			font-size: 1.2rem;
+		}
+	}
+}

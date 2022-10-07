@@ -4,7 +4,10 @@ import Layout from '@theme/Layout';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import styles from './Tokens.module.scss';
-import { ColorsDark, ColorsLight, Fonts, Spacing } from './sections';
+import * as tokens from './cache/tokens';
+import { ColorsDark, ColorsLight, Fonts, SpacingSmall } from './sections';
+import { SpacingMedium } from './sections/SpacingMedium';
+import { SpacingLarge } from './sections/SpacingLarge';
 
 export const Tokens = () => {
 	const { siteConfig } = useDocusaurusContext();
@@ -16,9 +19,14 @@ export const Tokens = () => {
 
 				<Tabs>
 					<TabList className={styles.nav}>
-						<Tab className={styles.navItem}>Colors</Tab>
-						<Tab className={styles.navItem}>Fonts</Tab>
-						<Tab className={styles.navItem}>Spacing</Tab>
+						{Object.keys(tokens).map((key, idx) => (
+							<Tab
+								key={idx}
+								className={styles.navItem}
+								selectedClassName={styles.activeTab}>
+								{key}
+							</Tab>
+						))}
 					</TabList>
 
 					<table>
@@ -59,7 +67,9 @@ export const Tokens = () => {
 								</tr>
 							</thead>
 							<tbody>
-								<Spacing />
+								<SpacingSmall />
+								<SpacingMedium />
+								<SpacingLarge />
 							</tbody>
 						</TabPanel>
 					</table>

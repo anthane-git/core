@@ -5,13 +5,18 @@ import { ClipboardIcon } from '../../../components';
 import { kebabCase } from '../../../helpers';
 import styles from '../Tokens.module.scss';
 
-export const Spacing = () => (
+export const SpacingMedium = () => (
 	<>
-		{Object.entries(spacing).map(([key, value], idx) => (
-			<tr key={idx}>
-				<div>
-					<span>{key}</span>
-				</div>
+		{Object.entries(spacing.medium).map(([key, value], idx) => (
+			<tr key={idx} className={styles.spacing}>
+				<td>
+					<figure style={{ width: value }} />
+				</td>
+
+				<td>
+					<span>Medium</span>
+				</td>
+
 				<td className={styles.tokenContainer}>
 					<span>
 						<button
@@ -28,15 +33,6 @@ export const Spacing = () => (
 							</div>
 						</button>
 					</span>
-				</td>
-
-				<td>
-					{Object.entries(value).map(([key, value], idx) => (
-						<div key={idx}>
-							<figure style={{ background: value }} />
-							{key} | {value}
-						</div>
-					))}
 				</td>
 			</tr>
 		))}

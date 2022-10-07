@@ -69,11 +69,10 @@ module.exports = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		{
 			navbar: {
-				title: 'Core',
 				hideOnScroll: true,
 				logo: {
-					alt: 'Anthane',
-					src: 'img/logo.png',
+					alt: 'Anthane Core',
+					src: 'https://github.com/anthane-git/core-assets/blob/main/logos/core/logotype-dark.png?raw=true',
 				},
 				items: [
 					{
