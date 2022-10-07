@@ -1,8 +1,9 @@
+import React from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { HeroBanner } from '@site/src/components';
 import Layout from '@theme/Layout';
-import React from 'react';
+
+import { HeroBanner } from '../../components';
 
 export const Home = (): JSX.Element => {
 	const { siteConfig } = useDocusaurusContext();

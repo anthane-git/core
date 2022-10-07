@@ -4,7 +4,10 @@
 	"private": true,
 	"scripts": {
 		"docusaurus": "docusaurus",
+		"prestart": "npm run prep",
 		"start": "docusaurus start",
+		"prep": "./node_modules/copy-files-from-to/index.js",
+		"prebuild": "npm run prep",
 		"build": "docusaurus build",
 		"swizzle": "docusaurus swizzle",
 		"deploy": "docusaurus deploy",
@@ -15,15 +18,17 @@
 		"typecheck": "tsc"
 	},
 	"dependencies": {
-		"@anthane/core-tokens": "^1.0.2",
+		"@anthane/core-tokens": "^1.2.2",
 		"@docusaurus/core": "^2.1.0",
 		"@docusaurus/preset-classic": "^2.1.0",
 		"@mdx-js/react": "^1.6.22",
 		"clsx": "^1.2.0",
+		"copy-files-from-to": "^3.2.2",
 		"docusaurus-plugin-sass": "^0.2.2",
 		"prism-react-renderer": "^1.3.5",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
+		"react-tabs": "^4.2.1",
 		"sass": "^1.53.0"
 	},
 	"devDependencies": {
@@ -46,5 +51,11 @@
 	},
 	"engines": {
 		"node": ">=16.14"
-	}
+	},
+	"copyFiles": [
+		{
+			"from": "node_modules/@anthane/core-tokens/dist/javascript/index.js",
+			"to": "src/views/tokens/cache/tokens.ts"
+		}
+	]
 }
