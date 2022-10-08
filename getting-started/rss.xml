@@ -4,15 +4,31 @@
         <title>Anthane Core Blog</title>
         <link>https://anthane-git.github.io/core/getting-started</link>
         <description>Anthane Core Blog</description>
-        <lastBuildDate>Mon, 12 Sep 2022 04:50:28 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Oct 2022 03:49:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://anthane-git.github.io/core/getting-started/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
-            <pubDate>Mon, 12 Sep 2022 04:50:28 GMT</pubDate>
+            <title><![CDATA[For Designers]]></title>
+            <link>https://anthane-git.github.io/core/getting-started/designers</link>
+            <guid>designers</guid>
+            <pubDate>Sat, 08 Oct 2022 03:49:17 GMT</pubDate>
+            <description><![CDATA[Everything you need to start designing with the Anthane Design System.]]></description>
+            <content:encoded><![CDATA[<p>Everything you need to start designing with the Anthane Design System.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[For Developers]]></title>
+            <link>https://anthane-git.github.io/core/getting-started/developers</link>
+            <guid>developers</guid>
+            <pubDate>Sat, 08 Oct 2022 03:49:17 GMT</pubDate>
+            <description><![CDATA[Everything you need to start designing with the Anthane Design System.]]></description>
+            <content:encoded><![CDATA[<p>Everything you need to start designing with the Anthane Design System.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[For Product Managers]]></title>
+            <link>https://anthane-git.github.io/core/getting-started/product-managers</link>
+            <guid>product-managers</guid>
+            <pubDate>Sat, 08 Oct 2022 03:49:17 GMT</pubDate>
             <description><![CDATA[Everything you need to start designing with the Anthane Design System.]]></description>
             <content:encoded><![CDATA[<p>Everything you need to start designing with the Anthane Design System.</p>]]></content:encoded>
         </item>
