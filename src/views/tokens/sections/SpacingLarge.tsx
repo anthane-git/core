@@ -17,6 +17,10 @@ export const SpacingLarge = () => (
 					<span>Large</span>
 				</td>
 
+				<td>
+					<span>{key}</span>
+				</td>
+
 				<td className={styles.tokenContainer}>
 					<span>
 						<button
@@ -33,6 +37,10 @@ export const SpacingLarge = () => (
 							</div>
 						</button>
 					</span>
+				</td>
+
+				<td>
+					<span>{value}</span>
 				</td>
 			</tr>
 		))}

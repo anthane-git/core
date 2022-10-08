@@ -47,8 +47,7 @@ export const Tokens = () => {
 						<TabPanel>
 							<thead>
 								<tr>
-									<th>Color Mode</th>
-									<th>Color</th>
+									<th>Preview</th>
 									<th>Token Name</th>
 									<th>Value</th>
 								</tr>
@@ -60,8 +59,8 @@ export const Tokens = () => {
 						<TabPanel>
 							<thead>
 								<tr>
-									<th>Color Mode</th>
-									<th>Color</th>
+									<th>Preview</th>
+									<th>Group</th>
 									<th>Token Name</th>
 									<th>Value</th>
 								</tr>

@@ -12,22 +12,24 @@ export const Home = (): JSX.Element => {
 		<Layout title={siteConfig.title} description="Anthane Core - Design System">
 			<HeroBanner />
 			<div className={styles.row}>
-				<div className={styles.link}>
-					<h2>Explore Core Usage</h2>
-					<p>
-						Color is critical part of our brand being immediately recognizable,
-						customers.
-					</p>
-					<Link to={'/getting-started'}>Getting Stareted</Link>
-				</div>
-				<div className={styles.link}>
-					<h2>Explore Core Usage</h2>
-					<p>
-						Color is critical part of our brand being immediately recognizable,
-						customers.
-					</p>
-					<Link to={'/getting-started'}>Getting Stareted</Link>
-				</div>
+				<Link to={'/getting-started/designers'}>
+					<div className={styles.link}>
+						<h2>For Designers</h2>
+						<p>Color is critical part of our brand being immediately</p>
+					</div>
+				</Link>
+				<Link to={'/getting-started/developers'}>
+					<div className={styles.link}>
+						<h2>For Developer</h2>
+						<p>Color is critical part of our brand being immediately</p>
+					</div>
+				</Link>
+				<Link to={'/getting-started/product-managers'}>
+					<div className={styles.link}>
+						<h2>For Product Managers</h2>
+						<p>Color is critical part of our brand being immediately</p>
+					</div>
+				</Link>
 			</div>
 		</Layout>
 	);
