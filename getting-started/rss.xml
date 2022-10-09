@@ -4,7 +4,7 @@
         <title>Anthane Core Blog</title>
         <link>https://anthane-git.github.io/core/getting-started</link>
         <description>Anthane Core Blog</description>
-        <lastBuildDate>Sun, 09 Oct 2022 16:53:39 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Oct 2022 17:18:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[For Designers]]></title>
             <link>https://anthane-git.github.io/core/getting-started/designers</link>
             <guid>designers</guid>
-            <pubDate>Sun, 09 Oct 2022 16:53:39 GMT</pubDate>
+            <pubDate>Sun, 09 Oct 2022 17:18:41 GMT</pubDate>
             <description><![CDATA[Everything you need to start designing with the Anthane Design System.]]></description>
             <content:encoded><![CDATA[<p>Everything you need to start designing with the Anthane Design System.</p>]]></content:encoded>
         </item>
@@ -20,7 +20,7 @@
             <title><![CDATA[For Developers]]></title>
             <link>https://anthane-git.github.io/core/getting-started/developers</link>
             <guid>developers</guid>
-            <pubDate>Sun, 09 Oct 2022 16:53:39 GMT</pubDate>
+            <pubDate>Sun, 09 Oct 2022 17:18:41 GMT</pubDate>
             <description><![CDATA[Everything you need to start designing with the Anthane Design System.]]></description>
             <content:encoded><![CDATA[<p>Everything you need to start designing with the Anthane Design System.</p>]]></content:encoded>
         </item>
@@ -28,7 +28,7 @@
             <title><![CDATA[For Product Managers]]></title>
             <link>https://anthane-git.github.io/core/getting-started/product-managers</link>
             <guid>product-managers</guid>
-            <pubDate>Sun, 09 Oct 2022 16:53:39 GMT</pubDate>
+            <pubDate>Sun, 09 Oct 2022 17:18:41 GMT</pubDate>
             <description><![CDATA[Everything you need to start designing with the Anthane Design System.]]></description>
             <content:encoded><![CDATA[<p>Everything you need to start designing with the Anthane Design System.</p>]]></content:encoded>
         </item>
