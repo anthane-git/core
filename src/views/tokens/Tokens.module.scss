@@ -1,11 +1,15 @@
 .wrap {
 	margin-top: 100px;
 
+	h1 {
+		font-size: 40px;
+	}
+
 	.nav {
 		margin: 50px 0 100px;
 		display: flex;
 		box-shadow: inset 0 0 0 1px var(--ifm-color-emphasis-500);
-		border-radius: 10px;
+		border-radius: 8px;
 		font-size: 16px;
 		overflow: hidden;
 		padding: 0;
@@ -63,7 +67,6 @@
 				border-color: #373737;
 				width: 100%;
 				display: flex;
-				justify-content: space-between;
 
 				th {
 					font-weight: 400;
@@ -83,7 +86,6 @@
 			tr {
 				display: flex;
 				align-items: center;
-				justify-content: space-between;
 
 				.tokenContainer {
 					span {
@@ -107,9 +109,14 @@
 							gap: 0.3rem;
 
 							.tokenName {
-								white-space: pre;
 								overflow: hidden;
-								text-overflow: ellipsis;
+								span {
+									white-space: pre;
+									text-overflow: ellipsis;
+									width: 200px;
+									margin-right: 10px;
+									background-color: transparent;
+								}
 							}
 						}
 					}
@@ -118,7 +125,7 @@
 				figure {
 					min-height: 52px;
 					border-radius: 6px;
-					width: 300px;
+					margin: 10px 0;
 				}
 
 				&.spacing {

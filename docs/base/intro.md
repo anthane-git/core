@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# 👋 Introduction
+# 🪜 Base
 
 It's so great to see you here! Core Base Is The Foundation Of The Core Design System
 

@@ -1,21 +1,25 @@
 import React from 'react';
 
-import { colors } from '../cache/tokens';
+import { colors, font, spacing } from '../cache/tokens';
 import { ClipboardIcon } from '../../../components';
 import { kebabCase } from '../../../helpers';
 import styles from '../Tokens.module.scss';
 
-export const ColorsLight = () => (
+interface Props {
+	mode: 'light' | 'dark';
+}
+
+export const Colors = ({ mode }: Props) => (
 	<>
-		{Object.entries(colors.light).map(([key, value], idx) => (
+		{Object.entries(colors[mode]).map(([key, value], idx) => (
 			<tr key={idx}>
-				<td>
-					<h4>Light</h4>
+				<td width={'20%'}>
+					<h4>{mode === 'dark' ? 'Dark' : 'Light'}</h4>
 				</td>
-				<td>
+				<td width={'30%'}>
 					<figure style={{ background: value }} />
 				</td>
-				<td className={styles.tokenContainer}>
+				<td width={'30%'} className={styles.tokenContainer}>
 					<span>
 						<button
 							onClick={() =>
@@ -30,7 +34,7 @@ export const ColorsLight = () => (
 						</button>
 					</span>
 				</td>
-				<td>
+				<td width={'20%'}>
 					<p>{value}</p>
 				</td>
 			</tr>

@@ -5,23 +5,24 @@ import { ClipboardIcon } from '../../../components';
 import { kebabCase } from '../../../helpers';
 import styles from '../Tokens.module.scss';
 
-export const SpacingLarge = () => (
+interface Props {
+	mode: 'small' | 'medium' | 'large';
+}
+
+export const Spacing = ({ mode }: Props) => (
 	<>
-		{Object.entries(spacing.large).map(([key, value], idx) => (
+		{Object.entries(spacing[mode]).map(([key, value], idx) => (
 			<tr key={idx} className={styles.spacing}>
-				<td>
+				<td width={'10%'}>
+					<span style={{ textTransform: 'capitalize' }}>{mode}</span>
+				</td>
+				<td width={'40%'}>
 					<figure style={{ width: value }} />
 				</td>
-
-				<td>
-					<span>Large</span>
-				</td>
-
-				<td>
+				<td width={'10%'}>
 					<span>{key}</span>
 				</td>
-
-				<td className={styles.tokenContainer}>
+				<td width={'30%'} className={styles.tokenContainer}>
 					<span>
 						<button
 							onClick={() =>
@@ -39,7 +40,7 @@ export const SpacingLarge = () => (
 					</span>
 				</td>
 
-				<td>
+				<td width={'10%'}>
 					<span>{value}</span>
 				</td>
 			</tr>

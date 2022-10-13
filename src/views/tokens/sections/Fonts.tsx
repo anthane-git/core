@@ -9,15 +9,17 @@ export const Fonts = () => (
 	<>
 		{Object.entries(font).map(([key, value], idx) => (
 			<tr key={idx}>
-				<div
-					style={{
-						fontFamily: value.font,
-						fontSize: value.size,
-						fontWeight: value.weight,
-					}}>
-					Aa
-				</div>
-				<td className={styles.tokenContainer}>
+				<td width={'30%'}>
+					<div
+						style={{
+							fontFamily: value.font,
+							fontSize: value.size,
+							fontWeight: value.weight,
+						}}>
+						AaZz
+					</div>
+				</td>
+				<td width={'30%'} className={styles.tokenContainer}>
 					<span>
 						<button
 							onClick={() =>
@@ -32,9 +34,10 @@ export const Fonts = () => (
 						</button>
 					</span>
 				</td>
-				<span>
-					{value.font} | {value.size} | {value.weight}
-				</span>
+				<td width={'10%'}>{value.font}</td>
+				<td width={'10%'}>{value.size}</td>
+				<td width={'10%'}>{value.weight}</td>
+				<td width={'10%'}>-</td>
 			</tr>
 		))}
 	</>
