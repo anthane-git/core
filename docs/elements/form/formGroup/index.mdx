@@ -1,0 +1,45 @@
+---
+sidebar_position: 2
+---
+
+import { Embed } from '../../../../src/components';
+
+# Form Group
+
+Input component is a component that is used to get user input in a text field.
+
+<a
+	href={
+		'https://anthane-git.github.io/core-elements/?path=/story/form-group--default'
+	}
+	target={'_blank'}>
+	Storybook Link
+</a>
+
+<br />
+
+## Import
+
+To implement FormGroup component into your project you'll need to add the import:
+
+```tsx
+import { FormGroup } from '@anthane/core-elements';
+```
+
+## Usage
+
+After adding import into your project you can use it simply like:
+
+```tsx
+<FormGroup type="contained" variant="primary">
+	Contained FormGroup
+</FormGroup>
+```
+
+<Embed src={'/?path=/story/form-group--default&full=1&'} />
+
+## Accessibility
+
+A button is mainly used for indicating an action, submitting a data, opening a modal etc.
+
+- Use `disabled` prop to indicate users that button is inactive and they can't interact with it.

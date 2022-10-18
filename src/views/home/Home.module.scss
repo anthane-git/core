@@ -2,6 +2,10 @@
 	display: flex;
 	margin-top: 80px;
 
+	a {
+		flex: 1;
+	}
+
 	.link {
 		background-color: var(--ifm-card-background-color);
 		border-radius: var(--ifm-card-border-radius);

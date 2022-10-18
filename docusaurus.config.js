@@ -34,6 +34,8 @@ module.exports = {
 				id: 'getting-started',
 				routeBasePath: 'getting-started',
 				path: './docs/getting-started',
+				blogSidebarTitle: 'Introduction',
+				blogSidebarCount: 'ALL',
 			},
 		],
 		[
