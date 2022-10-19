@@ -1,8 +1,8 @@
 {
-	"label": "♿ Accessibility",
+	"label": "👥 Accessibility",
 	"position": 3,
 	"link": {
 		"type": "generated-index",
-		"description": "5 minutes to learn the most important Docusaurus concepts."
+		"description": "We ensure all users have the most pleasant experience possible, with basic accessibility support automatically."
 	}
 }
