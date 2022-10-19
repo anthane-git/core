@@ -6,11 +6,11 @@ import { Embed } from '../../../../src/components';
 
 # Overline
 
-Input component is a component that is used to get user input in a text field.
+Overline is used to render paragraph elements.
 
 <a
 	href={
-		'https://anthane-git.github.io/core-elements/?path=/docs/form-input--text'
+		'https://anthane-git.github.io/core-elements/?path=/story/text-typography--component-overline'
 	}
 	target={'_blank'}>
 	Storybook Link
@@ -20,10 +20,10 @@ Input component is a component that is used to get user input in a text field.
 
 ## Import
 
-To implement Button component into your project you'll need to add the import:
+To implement overline component into your project you'll need to add the import:
 
 ```tsx
-import { Button } from '@anthane/core-elements';
+import { Typography } from '@anthane/core-elements';
 ```
 
 ## Usage
@@ -31,15 +31,9 @@ import { Button } from '@anthane/core-elements';
 After adding import into your project you can use it simply like:
 
 ```tsx
-<Button type="contained" variant="primary">
-	Contained Button
-</Button>
+<Typography.Overline>
+	The quick brown fox jumps over the lazy dog
+</Typography.Overline>
 ```
 
-<Embed src={'?path=/story/controls-button--contained&full=1&'} />
-
-## Accessibility
-
-A button is mainly used for indicating an action, submitting a data, opening a modal etc.
-
-- Use `disabled` prop to indicate users that button is inactive and they can't interact with it.
+<Embed src={'?path=/story/text-typography--component-overline&full=1'} />

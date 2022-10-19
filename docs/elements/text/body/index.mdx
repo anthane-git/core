@@ -6,11 +6,11 @@ import { Embed } from '../../../../src/components';
 
 # Body
 
-Input component is a component that is used to get user input in a text field.
+Body is used to render semantic HTML paragraph elements.
 
 <a
 	href={
-		'https://anthane-git.github.io/core-elements/?path=/docs/form-input--text'
+		'https://anthane-git.github.io/core-elements/?path=/story/text-typography--component-body'
 	}
 	target={'_blank'}>
 	Storybook Link
@@ -23,7 +23,7 @@ Input component is a component that is used to get user input in a text field.
 To implement Body component into your project you'll need to add the import:
 
 ```tsx
-import { Body } from '@anthane/core-elements';
+import { Typography } from '@anthane/core-elements';
 ```
 
 ## Usage
@@ -31,15 +31,7 @@ import { Body } from '@anthane/core-elements';
 After adding import into your project you can use it simply like:
 
 ```tsx
-<Body type="contained" variant="primary">
-	Contained Body
-</Body>
+<Typography.Body>The quick brown fox jumps over the lazy dog</Typography.Body>
 ```
 
-<Embed src={'?path=/story/controls-button--contained&full=1&'} />
-
-## Accessibility
-
-A button is mainly used for indicating an action, submitting a data, opening a modal etc.
-
-- Use `disabled` prop to indicate users that button is inactive and they can't interact with it.
+<Embed src={'?path=/story/text-typography--component-body&full=1'} />
